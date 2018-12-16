@@ -12,7 +12,7 @@ build:
   -script:
     name: publish
     code: |
-    dotnet publish -o publish
+     dotnet publish -o publish
   -script:
     name: copy binary
     code: |

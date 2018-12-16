@@ -1,4 +1,8 @@
-box: microsoft/dotnet:2.2-sdk
+box:
+  id: microsoft/dotnet
+  username: agabak
+  password: Tunu@Msewe123
+  tag: 2.2-sdk
 no-response-time: 10
 build: 
  step:
@@ -28,3 +32,6 @@ build:
         repository: dotnetcoreservices/hello-word
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
+
+
+

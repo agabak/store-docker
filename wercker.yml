@@ -20,8 +20,8 @@ build:
       cd  $WERCKER_OUTPUT_DIR/app
 
   deploy:
-   steps:
-     - internal/docker-push
+    steps:
+      - internal/docker-push
         username: agabak
         password: Tunu@Msewe123
         repository: dotnetcoreservices/hello-word

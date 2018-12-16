@@ -1,6 +1,6 @@
 box: "microsoft/dotnet:2.2-sdk"
 build: 
-  step: 
+  steps: 
     ? "-script"
     : 
       code: |
@@ -19,4 +19,3 @@ build:
 
 
 
-          

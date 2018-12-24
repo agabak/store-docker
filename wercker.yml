@@ -22,8 +22,8 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-        username: agabak
-        password: Tunu@Msewe123
+        username: USERNAME
+        password: PASSWORD
         tag: latest
         repository: dotnetcoreservices/hello-world
         registry: https://registry.hub.docker.com

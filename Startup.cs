@@ -27,7 +27,7 @@ namespace core
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!. We just have  docker pipeline done");
             });
         }
     }
